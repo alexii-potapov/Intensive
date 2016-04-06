@@ -1,0 +1,91 @@
+commit b50375ea3e6bb981f1910136add33dd1ce1bab8e
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 16:16:18 2016 +0300
+
+    Изменение имени коммита
+
+commit e9a2a41d0137ee5c4be6ea6e5c9a6c1050b184c1
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 16:12:53 2016 +0300
+
+    apply from stash
+
+commit b3e175baa773ad2671486def53c45700bca85d42
+Merge: c5be2bd f7e95f7
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 12:56:14 2016 +0300
+
+    Merge branch 'feature.two'
+    
+    merge [feature.two]
+    
+    Создаем branch2.txt и объединяем merge.txt
+
+commit c5be2bd3852adc1b474e92929e1bcd474da96607
+Merge: ea173ae 129837f
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 12:53:35 2016 +0300
+
+    Merge branch 'feature.one'
+    
+    merge [feature.one]
+    
+    Создаем branch1.txt и сливаем файлы merge.txt
+
+commit ea173ae98fe9694f109659f4ffce43cbac721210
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 12:29:12 2016 +0300
+
+    create merge.txt
+
+commit f7e95f782a884f7a9406143a0557946b735edb5c
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 12:27:34 2016 +0300
+
+    create merge.txt [feature.two]
+
+commit 129837f4c00b58c11f680a93f269708452b71746
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 12:21:13 2016 +0300
+
+    create merge.txt
+
+commit fc9741d752a5fa5553f36a4cd9479847d8c99e45
+Author: Алексей <alexii.potapov@gmail.com>
+Date:   Wed Apr 6 11:40:41 2016 +0300
+
+    создаст branch2.txt
+
+commit 55491d4975eb673bda7b68d53bca1c7f0fa6004a
+Author: Алексей <alexii.potapov@gmail.com>
+Date:   Wed Apr 6 11:37:23 2016 +0300
+
+    создаст branch1.txt
+
+commit eaf897eb73657adfb86f5f8e1e54b2b4cc271a20
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 00:51:39 2016 +0300
+
+    Добавлен release.notes
+    potapov.a.v.
+
+commit 65336ead153f4c733111142f271d9492b55a3c6e
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 00:28:34 2016 +0300
+
+    Добавлены фильтры в .gitignore
+    Потапов А.В.
+
+commit 595217351d90a1043aaed86dba3038e10a04fffa
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 00:17:46 2016 +0300
+
+    Добавлен .gitignore
+    Потапов А.В.
+
+commit 974076bad21db1702c1087b3e07b8d0378a1b016
+Author: potapov.a.v <alexii@live.ru>
+Date:   Wed Apr 6 00:11:50 2016 +0300
+
+    Инициализирован репозиторий.
+    Потапов А.В.
