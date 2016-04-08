@@ -1,0 +1,21 @@
+* be3599f :  create reset2.txt - potapov.a.v, Wed Apr 6 17:18:52 2016 +0300 
+* 39ecb6e :  create reset.txt - potapov.a.v, Wed Apr 6 17:18:01 2016 +0300 
+* 5fd6d59 :  add norevert.txt - potapov.a.v, Wed Apr 6 17:09:07 2016 +0300 
+* 58d60b8 :  export git log - potapov.a.v, Wed Apr 6 16:49:12 2016 +0300 
+* b50375e :  Изменение имени коммита - potapov.a.v, Wed Apr 6 16:16:18 2016 +0300 
+* e9a2a41 :  apply from stash - potapov.a.v, Wed Apr 6 16:12:53 2016 +0300 
+*   b3e175b :  Merge branch 'feature.two' - potapov.a.v, Wed Apr 6 12:56:14 2016 +0300 
+|\  
+| * f7e95f7 :  create merge.txt [feature.two] - potapov.a.v, Wed Apr 6 12:27:34 2016 +0300 
+| * fc9741d :  создаст branch2.txt - Алексей, Wed Apr 6 11:40:41 2016 +0300 
+* |   c5be2bd :  Merge branch 'feature.one' - potapov.a.v, Wed Apr 6 12:53:35 2016 +0300 
+|\ \  
+| * | 129837f :  create merge.txt - potapov.a.v, Wed Apr 6 12:21:13 2016 +0300 
+| * | 55491d4 :  создаст branch1.txt - Алексей, Wed Apr 6 11:37:23 2016 +0300 
+| |/  
+* | ea173ae :  create merge.txt - potapov.a.v, Wed Apr 6 12:29:12 2016 +0300 
+|/  
+* eaf897e :  Добавлен release.notes potapov.a.v. - potapov.a.v, Wed Apr 6 00:51:39 2016 +0300 
+* 65336ea :  Добавлены фильтры в .gitignore Потапов А.В. - potapov.a.v, Wed Apr 6 00:28:34 2016 +0300 
+* 5952173 :  Добавлен .gitignore Потапов А.В. - potapov.a.v, Wed Apr 6 00:17:46 2016 +0300 
+* 974076b :  Инициализирован репозиторий. Потапов А.В. - potapov.a.v, Wed Apr 6 00:11:50 2016 +0300 
