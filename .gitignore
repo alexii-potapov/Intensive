@@ -1,2 +1,6 @@
 tmp/**/*
 *.test-result
+
+**/bin/**/*.dll
+G-[0-9]*.code
+
