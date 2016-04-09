@@ -12,7 +12,8 @@ ID_Tsk int IDENTITY PRIMARY KEY,
  Name varchar(50) NOT NULL  ,
   Descrip varchar(255)  ,
    Closed bit  NOT NULL DEFAULT 0,
-    Redline date   
+    Redline date  ,
+     ID_P int NOT NULL
 ) 
  
  CREATE TABLE Tags
