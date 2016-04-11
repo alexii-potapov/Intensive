@@ -1,32 +1,31 @@
 USE PAVIntensive;
  
- CREATE TABLE Projects
+ CREATE TABLE Project
 (
-ID_P int IDENTITY PRIMARY KEY,
- Name varchar(50) NOT NULL  
+ ID int IDENTITY PRIMARY KEY,
+ name varchar(50) NOT NULL  
 ) 
  
- CREATE TABLE Tasks
+ CREATE TABLE Task
 (
-ID_Tsk int IDENTITY PRIMARY KEY,
- Name varchar(50) NOT NULL  ,
-  Descrip varchar(255)  ,
-   Closed bit  NOT NULL DEFAULT 0,
-    Redline date  ,
-     ID_P int NOT NULL
+ID int IDENTITY PRIMARY KEY,
+  name varchar(50) NOT NULL  ,
+  descrip varchar(255)  ,
+  closed bit  NOT NULL DEFAULT 0,
+  redline date  ,
+  project_ID int NOT NULL
 ) 
  
- CREATE TABLE Tags
+ CREATE TABLE Tag
 (
-ID_Tag int IDENTITY PRIMARY KEY,
- Name varchar(50) NOT NULL  
+ ID int IDENTITY PRIMARY KEY,
+ name varchar(50) NOT NULL  
 ) 
  
- CREATE TABLE TaskTags
+ CREATE TABLE TaskTag
 (
  
- ID_Tsk int NOT NULL,
- ID_Tag int NOT NULL,
- CONSTRAINT pk_TaskTag PRIMARY KEY (ID_Tsk,ID_Tag)  
+ task_ID int NOT NULL,
+ tag_ID int NOT NULL,
+ CONSTRAINT pk_TaskTag PRIMARY KEY (task_ID,tag_ID)  
 ) 
- 
