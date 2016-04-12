@@ -25,7 +25,23 @@ UPDATE dbo.Project
 SET 
   name = 'Интенсив - Потапов А.В.' -- name - varchar(50) NOT NULL 
 WHERE 
-  ID = 1  
+  ID = (SELECT ID FROM Project p WHERE p.name='Интенсив'); 
+ 
+12.
+DECLARE @ListTaskID int;
+
+SELECT @ListTaskID = p.ID
+FROM Project p
+   WHERE p.name='Список задач';
+
+
+INSERT INTO  dbo.Task
+  (name,project_ID)
+SELECT 
+  p.name, @ListTaskID  
+FROM Project p
+WHERE p.name NOT IN (SELECT name FROM Task t WHERE t.project_ID=@ListTaskID) 
+      AND p.ID<> @ListTaskID   ;
  
 13.  
 Delete * from task; 
