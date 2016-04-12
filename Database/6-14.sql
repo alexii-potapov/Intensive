@@ -12,27 +12,27 @@ SELECT COUNT(*) FROM Task t GROUP BY t.redline;
  
 10.1 
 INSERT INTO dbo.Project(name) 
-  VALUES('Интенсив') 
+  VALUES('РРЅС‚РµРЅСЃРёРІ') 
 
 10.2 
  INSERT INTO dbo.Task 
 (   name  ,descrip  ,closed  ,redline  ,project_ID ) 
 VALUES 
-(   'Изучение sql'    ,''    ,0    ,DATEADD(DY,3,GETDATE())    ,1   ) 
+(   'РР·СѓС‡РµРЅРёРµ sql'    ,''    ,0    ,DATEADD(DY,3,GETDATE())    ,1   ) 
  
  11. 
 UPDATE dbo.Project  
 SET 
-  name = 'Интенсив - Потапов А.В.' -- name - varchar(50) NOT NULL 
+  name = 'РРЅС‚РµРЅСЃРёРІ - РџРѕС‚Р°РїРѕРІ Рђ.Р’.' -- name - varchar(50) NOT NULL 
 WHERE 
-  ID = (SELECT ID FROM Project p WHERE p.name='Интенсив'); 
+  ID = (SELECT ID FROM Project p WHERE p.name='РРЅС‚РµРЅСЃРёРІ'); 
  
 12.
 DECLARE @ListTaskID int;
 
 SELECT @ListTaskID = p.ID
 FROM Project p
-   WHERE p.name='Список задач';
+   WHERE p.name='РЎРїРёСЃРѕРє Р·Р°РґР°С‡';
 
 
 INSERT INTO  dbo.Task
